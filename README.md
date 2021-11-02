@@ -1,2 +1,3 @@
 # tjr-web
-Person Website
+Personal portfolio website
+Project was done using React and various libraries
