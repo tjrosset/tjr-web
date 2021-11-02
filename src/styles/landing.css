@@ -1,0 +1,23 @@
+.landing-page{
+    height: 100vh;
+    background-image: url('../assets/mtn.jpeg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+}
+.landing-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.bio{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}

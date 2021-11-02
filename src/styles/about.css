@@ -1,0 +1,13 @@
+.about-container{
+    height: 850px;
+    background-color: #202020;
+    color: white;
+}
+
+/* .dividerw{
+    aspect-ratio: 1000/20;
+    width: 100%;
+    background-image: url('../assets/wtb-wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
