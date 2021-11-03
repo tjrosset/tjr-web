@@ -29,6 +29,11 @@
 .testicon{
     color: white;
 }
+.testicon:hover{
+    cursor: pointer;
+    opacity: .75;
+}
+
 .email-form{
     display: flex;
     flex-direction: column;

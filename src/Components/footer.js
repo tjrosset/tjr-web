@@ -42,7 +42,6 @@ class Footer extends Component{
         });
     }
 
-
     render(){
         return(
             <div id='contact' className={'footer-container-'+ (this.state.toggle ? 'open':'closed')}>
@@ -64,7 +63,7 @@ class Footer extends Component{
                                 <input type='email' name='from_name' onChange={this.updateInput} value={this.state.from_name} required></input>
                                 <label style={{color:'white'}}>Message</label>
                                 <textarea rows='5' name='message' maxlength='555' onChange={this.updateInput} value={this.state.message} style={{resize:'none'}}  required></textarea>
-                                <button type='button' onClick={this.send_email}>Send</button>
+                                {/* <button type='button' onClick={this.send_email}>Send</button> */}
                             </form>
                             </Bounce>
                         </div> : null

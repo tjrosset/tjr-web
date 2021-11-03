@@ -1,18 +1,16 @@
 import React,  {useState , useEffect} from 'react';
 import {Container} from 'react-bootstrap'
-import Scroll, {Link} from 'react-scroll'
+import {Link} from 'react-scroll'
 
 // Styles
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/header.css'
 
-var scroll = Scroll.animateScroll;
 
 function Header(){
 
     const [scrolled, setScrolled] = useState('header-component');
     const [offSet, setoffSet] = useState(-45);
-    const [offSets, setoffSets] = useState(-45);
 
     const scrollListener = e => {
         if (window.scrollY > (window.innerHeight-100)) {

@@ -1,13 +1,17 @@
+/* Skills Component */
 .skills-page{
     min-height: 850px;
     background-color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
 }
+
 .skills-container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* Project */
 .projects-container{
     display: flex;
     flex-direction: row;
@@ -15,25 +19,52 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
-.project{
+.project-pic-wrapper{
     width: 200px;
     height: 200px;
-    margin: 5px;
+    margin: 15px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
-
+.project:hover{
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius: 28px;
+    opacity: .65;
+}
 .project-logos{
     width: 100%;
-
+}
+.project-titlebar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+.project-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* 
-.divider{
-    aspect-ratio: 1000/20;
-    width: 100%;
-    background-image: url('../assets/btg-wave.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+/* Modal */
+/* .modalss{
+    background-color: white;
+    width: 75%;
+    height: 75%;
+    height: fit-content;
+    padding: 8px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    box-shadow: 10px 15px 10px rgba(2, 2, 2, 0.685);
 } */
+
+/* FontAwesome Icon */
+.exiticon{
+    color: black;
+}
+.exiticon:hover{
+    cursor: pointer;
+    color: rgb(216, 36, 36);
+
+}

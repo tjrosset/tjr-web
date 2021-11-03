@@ -15,7 +15,7 @@ function Landing(){
         <div id='landing' className='landing-page'>
             <Container className='landing-container'>
                 <div className='bio'>
-                    <h2>Hi, I'm Thomas Rossetti</h2>
+                    <h1>Hi, I'm Thomas Rossetti</h1>
                     <b>Filler | Filler | Filler</b>
                 </div>
             </Container>
