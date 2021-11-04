@@ -3,6 +3,7 @@ import {Container} from 'react-bootstrap'
 import Modal from 'react-modal'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import {Fade} from 'react-reveal'
 
 //Styles
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,6 +14,7 @@ import tpx from '../assets/topix/logo-300 mono.png'
 import tsu from '../assets/topix/topix-signup.JPG'
 import thp from '../assets/topix/topix-home.JPG'
 import mpc from '../assets/mpc/logo.png'
+import mph from '../assets/mpc/mpc-home.JPG'
 import wgm from '../assets/wingman/wingmanl.png'
 import hoo from '../assets/hyb/hyb.png'
 import hsr from '../assets/hyb/hoo-results.JPG'
@@ -55,23 +57,25 @@ function Skills(){
         <div name='skills' className='skills-page'>
             <Container className='skills-container'>
                 <br></br>
-                <h2>Skills</h2>
+                <div className='progress-bars'>
+                    <h2 style={{textDecoration:'underline'}}>Skills</h2>
                     <label>Python (Flask)</label>
-                    <Container style={{height:'50px', background:'linear-gradient(90deg, #C3A75D 87%, #FFFFFF 20%)', border:'2px solid black'}}></Container>
+                    <div style={{height:'50px', background:'linear-gradient(90deg, #C3A75D 87%, #FFFFFF 20%)', border:'2px solid black', width:"100%"}}></div>
                     <label>HTML</label>
-                    <Container style={{height:'50px', background:'linear-gradient(90deg, #5F965B 90%, #FFFFFF 10%)', border:'2px solid black'}}></Container>
+                    <div style={{height:'50px', background:'linear-gradient(90deg, #5F965B 90%, #FFFFFF 10%)', border:'2px solid black', width:"100%"}}></div>
                     <label>CSS</label>
-                    <Container style={{height:'50px', background:'linear-gradient(90deg, #5B6B96 90%, #FFFFFF 10%)', border:'2px solid black'}}></Container>
+                    <div style={{height:'50px', background:'linear-gradient(90deg, #5B6B96 90%, #FFFFFF 10%)', border:'2px solid black', width:"100%"}}></div>
                     <label>JavaScript (React, React Native, Nodejs)</label>
-                    <Container style={{height:'50px', background:'linear-gradient(90deg, #965B5B 78%, #FFFFFF 22%)', border:'2px solid black'}}></Container>
+                    <div style={{height:'50px', background:'linear-gradient(90deg, #965B5B 78%, #FFFFFF 22%)', border:'2px solid black', width:"100%"}}></div>
                     <label>PHP</label>
-                    <Container style={{height:'50px', background:'linear-gradient(90deg, #5B9690 68%, #FFFFFF 32%)', border:'2px solid black'}}></Container>
+                    <div style={{height:'50px', background:'linear-gradient(90deg, #5B9690 68%, #FFFFFF 32%)', border:'2px solid black', width:"100%"}}></div>
                     <label>Docker</label>
-                    <Container style={{height:'50px', background:'linear-gradient(90deg, #935B96 60%, #FFFFFF 40%)', border:'2px solid black'}}></Container>
-                
-                <br></br>
-                <h2>Projects</h2>
+                    <div style={{height:'50px', background:'linear-gradient(90deg, #935B96 60%, #FFFFFF 40%)', border:'2px solid black', width:"100%"}}></div>
+                </div>
+
+                <h2 name='projects' style={{textDecoration:'underline', marginTop:'50px'}}>Projects</h2>
                 <div className='projects-container'>
+                    
                     {/* Topix */}
                     <div>
                         <div title='Topix' className='project-pic-wrapper' onClick={open1}>
@@ -83,7 +87,7 @@ function Skills(){
                                 <FontAwesomeIcon onClick={close1} className='exiticon' icon={faTimes} size='1x'></FontAwesomeIcon>
                             </div>
                             <div className='project-content'>
-                                <img src={tsu} style={{width:'75%'}}></img>
+                                <img alt='topix login' src={tsu} style={{width:'75%'}}></img>
                                 {/* <img src={thp} style={{height:'100%'}}></img> */}
                                 <p>Topix was developed using React, MySQL, FontAwesome
 
@@ -103,7 +107,7 @@ function Skills(){
                                 <FontAwesomeIcon onClick={close2} className='exiticon' icon={faTimes} size='1x'></FontAwesomeIcon>
                             </div>
                             <div className='project-content'>
-                                <p>Wingman was developed using PHP and MySQL</p>
+                                <p>Wingman was developed using PHP and MySQL and its purpose was to provide a new take on traditional dating applications. Users would find matches for their friends and vise versa.</p>
                             </div>
                         </Modal>
                     </div>
@@ -119,7 +123,10 @@ function Skills(){
                                 <FontAwesomeIcon onClick={close3} className='exiticon' icon={faTimes} size='1x'></FontAwesomeIcon>
                             </div>
                             <div className='project-content'>
-                                <p>This application was built using React</p>
+                                <img alt='marco polo home' src={mph} style={{width:'75%'}}></img>
+                                <p>This application was built primarily using React and Firebase. The application allows for users to easily see the history behind the club and what they have to offer to the community.
+                                    The site has a build in developer portal that allows admins to login and edit the event calendar with ease.
+                                </p>
                             </div>
                         </Modal>
                     </div>
@@ -135,7 +142,7 @@ function Skills(){
                                 <FontAwesomeIcon onClick={close4} className='exiticon' icon={faTimes} size='1x'></FontAwesomeIcon>
                             </div>
                             <div className='project-content'>
-                                <img src={hsr} style={{width:'75%'}}></img>
+                                <img alt='hybrid search results' src={hsr} style={{width:'75%'}}></img>
                                 <p>The purpose of this project was to evaluate the reception of covid-19 in three different contries based off of twitter data.
                                     The tweets were gathered from citizens and POIs from Italy, India, and the United States using the Twitter API and various queries.
                                     The tweets were then indexed using Solr setup on a Amazon Web Services instance. The webpage allows users to consume the information with ease using search
@@ -146,7 +153,6 @@ function Skills(){
                         </Modal>
                     </div>
                 </div>
-
             </Container>
         </div>
     );

@@ -7,8 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/landing.css'
 import '../styles/header.css'
 
-// images
-import pic from '../assets/tjr.jpg'
 
 function Landing(){
     return(
@@ -16,7 +14,7 @@ function Landing(){
             <Container className='landing-container'>
                 <div className='bio'>
                     <h1>Hi, I'm Thomas Rossetti</h1>
-                    <b>Filler | Filler | Filler</b>
+                    <b>| Full Stack Developer |</b>
                 </div>
             </Container>
         </div>

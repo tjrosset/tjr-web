@@ -34,7 +34,7 @@ function Header(){
                 <Link activeClass="active" className='scroll_links' to="landing" offset={-45} delay={0} spy={true} smooth={true} duration={500}>Home</Link>
                 <Link className='scroll_links' to="about" offset={offSet} delay={0} spy={true} smooth={true} duration={500}>About</Link>
                 <Link className='scroll_links' to="skills" offset={offSet} delay={0} spy={true} smooth={true} duration={500}>Skills</Link>
-                <Link className='scroll_links' to="skills" offset={offSet} delay={0} spy={true} smooth={true} duration={500}>Projects</Link>
+                <Link className='scroll_links' to="projects" offset={offSet} delay={0} spy={true} smooth={true} duration={500}>Projects</Link>
                 <Link className='scroll_links' to="contact" offset={45} delay={0} spy={true} smooth={true} duration={500}>Contacts</Link>
             </Container>
         </div>
