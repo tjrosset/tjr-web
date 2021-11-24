@@ -1,8 +1,9 @@
 .footer-container-closed{
     width: 100%;
-    background: linear-gradient( #202020, #292929);
-    box-shadow: 0px -5px 3px rgba(36, 36, 36, 0.26);
-    border-top: 1px solid rgb(0, 0, 0);
+    background-color: #FFFFFF;
+    color: #202020;
+    /* background: linear-gradient( #202020, #292929); */
+    font-family: 'Lato', sans-serif;
 }
 .footer-container-open{
     height: fit-content;
@@ -23,11 +24,11 @@
 
 }
 .info-item{
-    color:white;
+    font-size: 18px;
     list-style-type: none;
 }
 .testicon{
-    color: white;
+    color: #202020;
 }
 .testicon:hover{
     cursor: pointer;

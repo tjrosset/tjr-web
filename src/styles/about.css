@@ -1,16 +1,19 @@
 .about-container{
     height: 100%;
     min-height: 875px;
-    background-color: #202020;
-    color: white;
+    background-color: #FFFFFF;
+    color: #202020;
+    /* background-color: #FFFFFF;
+    color: #202020; */
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
 }
 .profilepic{
     border-radius: 50%;
-    width: 175px;
-    height: 175px;
-    border: 2px solid white;
+    width: 170px;
+    height: 170px;
+    border: 2px solid #202020;
+    /* border: 2px solid #202020; */
     float: left;
     shape-outside: circle();
 }
@@ -25,12 +28,14 @@
     margin-top: 100px;
     width: 50%;
     padding: 2px;
+    word-wrap: break-word;
 }
 .education-container b{
     text-decoration: underline;
 }
 .resume-button{
+    background-color: #202020;
+    color: #FFFFFF;
     margin-top: 100px;
-    border-radius: 10px;
-    
+    border-radius: 12px;
 }

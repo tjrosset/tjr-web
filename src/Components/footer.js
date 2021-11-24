@@ -50,7 +50,7 @@ class Footer extends Component{
                         <li className ='info-item'>Thomas Rossetti</li>
                         <li className ='info-item'>rossettitj@gmail.com</li>
                         <div style={{display:'flex', flexDirection:'row', justifyContent:'space-evenly'}}>
-                            <a href='https://github.com/tjrosset' target="_blank"><FontAwesomeIcon className='testicon' icon={faGithub} size='3x'></FontAwesomeIcon></a>
+                            <a href='https://github.com/tjrosset' target="_blank" rel="noreferrer"><FontAwesomeIcon className='testicon' icon={faGithub} size='3x'></FontAwesomeIcon></a>
                             <Link onClick={this.email.bind(this)}  to="contact" spy={true} smooth={true}><FontAwesomeIcon className='testicon' icon={faEnvelope} size='3x'></FontAwesomeIcon></Link>
                         </div>
                     </div>
