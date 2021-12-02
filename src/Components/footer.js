@@ -4,7 +4,6 @@ import {Link} from 'react-scroll'
 import {Bounce} from 'react-reveal'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import { send } from 'emailjs-com';
 
 //styles

@@ -18,8 +18,8 @@ import wgm from '../assets/wingman/wingmanl.png'
 import wgh from '../assets/wingman/wing.JPG'
 import hoo from '../assets/hyb/hyb.png'
 import hsr from '../assets/hyb/hoo-results.JPG'
-import tjr from '../assets/personal/tjr-web.JPG'
-import tjw from '../assets/personal/pweb.JPG'
+import tjw from '../assets/personal/tjrweb.png'
+import tjr from '../assets/personal/dis.png'
 
 
 function Skills(){
@@ -176,7 +176,7 @@ function Skills(){
                     {/* TJR-WEBSITE */}
                     <div>
                         <div title='TJR Web' className='project-pic-wrapper' onClick={open5}>
-                            <img className='project-logos' alt='project, TJR' src={tjw}></img>
+                            <img className='project-logos' alt='project, TJR' src={tjr}></img>
                         </div>
                         <Modal isOpen={modal5}  onRequestClose={close5} className='modals'>
                             <div className='project-titlebar'>
@@ -184,7 +184,7 @@ function Skills(){
                                 <FontAwesomeIcon onClick={close5} className='exiticon' icon={faTimes} size='1x'></FontAwesomeIcon>
                             </div>
                             <div className='project-content'>
-                                <img alt='hybrid search results' src={tjr} className='project-example'></img>
+                                <img alt='hybrid search results' src={tjw} className='project-example'></img>
                                 <p>The purpose of this project was to develop a personal website to express myself and my work.
                                     The site displays information such as my previous work experience, my level of education, skills, and some of my favorite pieces of work.
                                     It also makes it easy for users to contact me through email or my other social medias.
