@@ -73,7 +73,7 @@ function Skills(){
                     <label>HTML</label>
                     <div style={{height:'50px', background:'linear-gradient(90deg, #5F965B 90%, #FFFFFF 10%)', border:'2px solid black', width:"100%"}}></div>
                     <label>CSS</label>
-                    <div style={{height:'50px', background:'linear-gradient(90deg, #5B6B96 90%, #FFFFFF 10%)', border:'2px solid black', width:"100%"}}></div>
+                    <div style={{height:'50px', background:'linear-gradient(90deg, #5B6B96 82%, #FFFFFF 10%)', border:'2px solid black', width:"100%"}}></div>
                     <label>JavaScript (React, React Native, Nodejs)</label>
                     <div style={{height:'50px', background:'linear-gradient(90deg, #965B5B 78%, #FFFFFF 22%)', border:'2px solid black', width:"100%"}}></div>
                     <label>PHP</label>
@@ -100,9 +100,10 @@ function Skills(){
                                 {/* <img src={thp} style={{height:'100%'}}></img> */}
                                 <p>Topix is an academic social platform designed with both style and funciton in mind. The project was initially fleshed out on Figma and brought to life using react.
                                     The application allowed authenticated users to share posts and messages with other users on the site. 
-                                    Every post contains a topix tag that allows users to filter out their custom feed based on what they want to see.
+                                    Every post contains a topix tag that allows users to filter out their custom feed based on what they want to see. 
+                                    Topix allowed me to experience important things such as A/B testing, an agile work cycle, and the utilization of important industry tools (Figma / ZenHub).
                                 </p>
-                                <p>Tools used: React, HTML, CSS, MySQL, FontAwesome, Bootstrap, Git, Figma</p>
+                                <p>Tools used: React, HTML, CSS, MySQL, FontAwesome, Bootstrap, Git, Figma, Zenhub</p>
                             </div>
                         </Modal>
                     </div>
@@ -123,7 +124,7 @@ function Skills(){
                                     This could be done by adding two users into an anonymous group chat where they would be given an opportunity to spark up a conversation using our custom ice breakers.
                                     Each user has a viewable customizable profile that allows users to express themselves to others.
                                 </p>
-                                <p>Tools used: PHP, HTML, CSS, MySQL, FontAwesome, Git, Figma</p>
+                                <p>Tools used: PHP, HTML, CSS, MySQL, FontAwesome, Git, Figma, ZenHub</p>
                             </div>
                         </Modal>
                     </div>
@@ -144,7 +145,8 @@ function Skills(){
                                     The site was designed alongside the members and built out to their specifications.
                                     It also contains a developer console that can be accessed by admins for easy updates.
                                 </p>
-                                <p>Tools used: Figma, React, HTML, CSS, Firebase, Firestore, Bootstrap, FontAwesome</p>
+                                <p>Tools used: Figma, React, HTML, CSS, Firebase, Firestore, Bootstrap, FontAwesome, Figma</p>
+                                <p>Link to Project: <a href='marcopoloclub.net' target="_blank" rel="noreferrer">marcopoloclub.net</a></p>
                             </div>
                         </Modal>
                     </div>
@@ -188,6 +190,7 @@ function Skills(){
                                     It also makes it easy for users to contact me through email or my other social medias.
                                 </p>
                                 <p>Tools used: React, Firebase, FontAwesome</p>
+                                <p>Link to Project: <a href='thomasrossetti.com' target="_blank" rel="noreferrer">thomasrossetti.com</a></p>
                             </div>
                         </Modal>
                     </div>

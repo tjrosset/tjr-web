@@ -34,9 +34,18 @@
     border-radius: 50%;
 }
 
+ /* fontawesome icons */
 .links{
     width: 300px;
     display: flex;
     padding: 10px;
     justify-content: space-evenly;
+}
+
+.contacts{
+    color: white;
+}
+.contacts:hover{
+    color: rgb(230, 230, 230);
+    filter: drop-shadow(0px 1px 7px rgba(233, 233, 233, 0.63));
 }

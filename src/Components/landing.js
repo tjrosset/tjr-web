@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container} from 'react-bootstrap'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithub, faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faLinkedin, faInstagram} from "@fortawesome/free-brands-svg-icons";
 // import {Fade} from 'react-reveal'
 
 // Styles
@@ -20,9 +20,9 @@ function Landing(){
                     <b>| Computer Scientist | Full Stack Developer |</b>
                 </div>
                 <div className='links'>
-                    <FontAwesomeIcon icon={faGithub} size='2x'></FontAwesomeIcon>
-                    <FontAwesomeIcon icon={faLinkedin} size='2x'></FontAwesomeIcon>
-                    <FontAwesomeIcon icon={faTwitter} size='2x'></FontAwesomeIcon>                
+                    <a href='https://github.com/tjrosset' target="_blank" rel="noreferrer" className='contacts'><FontAwesomeIcon icon={faGithub} size='2x'></FontAwesomeIcon></a>
+                    <a href='https://www.linkedin.com/in/thomas-rossetti-53526a200/' target="_blank" rel="noreferrer" className='contacts'><FontAwesomeIcon icon={faLinkedin} size='2x'></FontAwesomeIcon></a>
+                    <a href='https://www.instagram.com/rossetti505/' target="_blank" rel="noreferrer" className='contacts'><FontAwesomeIcon icon={faInstagram} size='2x'></FontAwesomeIcon></a>
                 </div>
             </Container>
         </div>

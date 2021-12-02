@@ -12,30 +12,34 @@
     border-radius: 50%;
     width: 170px;
     height: 170px;
-    border: 2px solid #202020;
-    /* border: 2px solid #202020; */
+    border: 2.5px solid #202020;
+    margin: 10px;
     float: left;
     shape-outside: circle();
 }
 .profile-container{
     height: 100%;
+    border-bottom: 2.5px solid #202020;
 }
 .about-horizontal-container{
     display: flex;
     flex-direction: row;
 }
 .education-container{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 50%;
     padding: 2px;
     word-wrap: break-word;
 }
 .education-container b{
+    font-size: 18px;
     text-decoration: underline;
 }
 .resume-button{
     background-color: #202020;
     color: #FFFFFF;
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: 12px;
+    padding: 5px;
+    margin-bottom: 10px;
 }

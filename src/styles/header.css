@@ -43,5 +43,6 @@
 }
 
 .scroll_links:hover{
-    color: rgb(255, 173, 20)
+    color: white;
+    text-shadow: 0px 1px 10px rgba(233, 233, 233, 0.63);
 }

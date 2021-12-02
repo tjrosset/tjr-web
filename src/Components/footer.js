@@ -50,7 +50,7 @@ class Footer extends Component{
                         <li className ='info-item'>Thomas Rossetti</li>
                         <li className ='info-item'>rossettitj@gmail.com</li>
                         <div style={{display:'flex', flexDirection:'row', justifyContent:'space-evenly'}}>
-                            <a href='https://github.com/tjrosset' target="_blank" rel="noreferrer"><FontAwesomeIcon className='testicon' icon={faGithub} size='3x'></FontAwesomeIcon></a>
+                            {/* <a href='https://github.com/tjrosset' target="_blank" rel="noreferrer"><FontAwesomeIcon className='testicon' icon={faGithub} size='3x'></FontAwesomeIcon></a> */}
                             <Link onClick={this.email.bind(this)}  to="contact" spy={true} smooth={true}><FontAwesomeIcon className='testicon' icon={faEnvelope} size='3x'></FontAwesomeIcon></Link>
                         </div>
                     </div>
@@ -59,11 +59,11 @@ class Footer extends Component{
                             <Bounce left>
                             <br></br>
                             <form className='email-form'>
-                                <label style={{color:'white'}}>Email</label>
+                                <label>Email</label>
                                 <input type='email' name='from_name' onChange={this.updateInput} value={this.state.from_name} required></input>
-                                <label style={{color:'white'}}>Message</label>
+                                <label>Message</label>
                                 <textarea rows='5' name='message' maxlength='555' onChange={this.updateInput} value={this.state.message} style={{resize:'none'}}  required></textarea>
-                                {/* <button type='button' onClick={this.send_email}>Send</button> */}
+                                <button type='button' onClick={this.send_email}>Send</button>
                             </form>
                             </Bounce>
                         </div> : null
