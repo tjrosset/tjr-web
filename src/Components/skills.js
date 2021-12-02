@@ -185,7 +185,7 @@ function Skills(){
                             </div>
                             <div className='project-content'>
                                 <img alt='hybrid search results' src={tjw} className='project-example'></img>
-                                <p>The purpose of this project was to develop a personal website to express myself and my work.
+                                <p>The purpose of this project was to develop a personal website to express myself and show off my work.
                                     The site displays information such as my previous work experience, my level of education, skills, and some of my favorite pieces of work.
                                     It also makes it easy for users to contact me through email or my other social medias.
                                 </p>

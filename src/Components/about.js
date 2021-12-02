@@ -24,11 +24,12 @@ function Filler(){
                 <div className='profile-container'>
                     <img className='profilepic' alt='profile pic' src={tjr}></img>
                     <p style={{fontSize:'20px', textAlign:'justify', padding:'5px'}}>
-                        Hi, I am a well rounded developer and a recent graduate from the University at Buffalo with a Bachelors of Science in Computer
-                        Science. During my education, I have developed a passion for web development and am looking forward to turning this passion into a career! 
+                        I am a well-rounded developer and a recent graduate from the University at Buffalo, where I earned a BS in Computer
+                        Science. During my education, my passion for web development grew and now I am looking forward to turning this passion into a career! 
                         My goal is to work alongside others to build applications that are both visually appealing and user friendly. 
-                        During my studies I have had the pleasure to experience working with a plethora of different frameworks such as Flask, React, Django, and Node.js.
+                        I have had the opportunity to experience working with a plethora of different frameworks such as Flask, React, Django, and Node.js.
                         Databases are no stranger to me either, during my studies I have become familiar with popular databases such as SQL, MongoDB, Solr, Firestore, and more!
+                        I currently am working as a freelancer, but I am looking to secure a position as a Full Stack Web Developer.
                     </p>
                 </div>
                 
