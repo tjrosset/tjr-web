@@ -57,12 +57,13 @@ class Footer extends Component{
                         <div className='email-container'>
                             <Bounce left>
                             <br></br>
+                            <h5>Email Me</h5>
                             <form className='email-form'>
-                                <label>Email</label>
+                                <label>Your Email:</label>
                                 <input type='email' name='from_name' onChange={this.updateInput} value={this.state.from_name} required></input>
-                                <label>Message</label>
+                                <label>Your Message:</label>
                                 <textarea rows='5' name='message' maxlength='555' onChange={this.updateInput} value={this.state.message} style={{resize:'none'}}  required></textarea>
-                                <button type='button' onClick={this.send_email}>Send</button>
+                                <button className='email-button' type='button' onClick={this.send_email}>Send</button>
                             </form>
                             </Bounce>
                         </div> : null

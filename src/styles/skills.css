@@ -19,6 +19,9 @@
     width: 100%;
     height: 100%;
 }
+.barmargin{
+    margin-top: 15px;
+}
 
 /* Project */
 .projects-container{

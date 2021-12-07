@@ -3,6 +3,7 @@ import {Container} from 'react-bootstrap'
 import Modal from 'react-modal'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import {Fade} from 'react-reveal'
 
 
 //Styles
@@ -68,18 +69,38 @@ function Skills(){
                 <br></br>
                 <div className='progress-bars'>
                     <h2 style={{textDecoration:'underline'}}>Skills</h2>
-                    <label>Python (Flask)</label>
-                    <div style={{height:'50px', background:'linear-gradient(90deg, #C3A75D 87%, #FFFFFF 20%)', border:'2px solid black', width:"100%"}}></div>
-                    <label>HTML</label>
-                    <div style={{height:'50px', background:'linear-gradient(90deg, #5F965B 90%, #FFFFFF 10%)', border:'2px solid black', width:"100%"}}></div>
-                    <label>CSS</label>
-                    <div style={{height:'50px', background:'linear-gradient(90deg, #5B6B96 82%, #FFFFFF 10%)', border:'2px solid black', width:"100%"}}></div>
-                    <label>JavaScript (React, React Native, Nodejs)</label>
-                    <div style={{height:'50px', background:'linear-gradient(90deg, #965B5B 78%, #FFFFFF 22%)', border:'2px solid black', width:"100%"}}></div>
-                    <label>PHP</label>
-                    <div style={{height:'50px', background:'linear-gradient(90deg, #5B9690 68%, #FFFFFF 32%)', border:'2px solid black', width:"100%"}}></div>
-                    <label>Docker</label>
-                    <div style={{height:'50px', background:'linear-gradient(90deg, #935B96 60%, #FFFFFF 40%)', border:'2px solid black', width:"100%"}}></div>
+                    <Fade left>
+                        <label className='barmargin'>Python (Flask)</label>
+                        <div title='85%' style={{height:'50px', background:'linear-gradient(90deg, #C3A75D 85%, #FFFFFF 20%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
+                    </Fade>
+                    <Fade right>
+                        <label className='barmargin'>HTML</label>
+                        <div title='90%' style={{height:'50px', background:'linear-gradient(90deg, #5F965B 90%, #FFFFFF 10%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
+                    </Fade>
+                    <Fade left>
+                        <label className='barmargin'>CSS</label>
+                        <div title='85%' style={{height:'50px', background:'linear-gradient(90deg, #5B6B96 85%, #FFFFFF 10%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
+                    </Fade>
+                    <Fade right>
+                        <label className='barmargin'>JavaScript</label>
+                        <div title='75%' style={{height:'50px', background:'linear-gradient(90deg, #965B5B 75%, #FFFFFF 22%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
+                    </Fade>
+                    <Fade left>
+                        <label className='barmargin'>PHP</label>
+                        <div title='70%' style={{height:'50px', background:'linear-gradient(90deg, #5B9690 70%, #FFFFFF 32%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
+                    </Fade>
+                    <Fade right>
+                        <label className='barmargin'>React / React Native</label>
+                        <div title='85%' style={{height:'50px', background:'linear-gradient(90deg, #F6A447 85%, #FFFFFF 15%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
+                    </Fade>
+                    <Fade left>
+                        <label className='barmargin'>Databases</label>
+                        <div title='88%' style={{height:'50px', background:'linear-gradient(90deg, #3087AC 88%, #FFFFFF 22%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
+                    </Fade>
+                    <Fade right>
+                        <label className='barmargin'>Docker</label>
+                        <div title='65%' style={{height:'50px', background:'linear-gradient(90deg, #935B96 65%, #FFFFFF 40%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
+                    </Fade>
                 </div>
 
                 <h2 name='projects' style={{textDecoration:'underline', marginTop:'50px'}}>Projects</h2>
