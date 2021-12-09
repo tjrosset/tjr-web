@@ -17,7 +17,7 @@ function Landing(){
                 <div className='bio'>
                     <img className='landing-pic' alt='profile pic' src={tjr}></img>
                     <h1>Hi, I'm Thomas Rossetti</h1>
-                    <b>| Computer Scientist | Full Stack Developer |</b>
+                    <b>| Computer Scientist | Full Stack Developer | Software Systems Specialist |</b>
                 </div>
                 <div className='links'>
                     <a href='https://github.com/tjrosset' target="_blank" rel="noreferrer" className='contacts'><FontAwesomeIcon icon={faGithub} size='2x'></FontAwesomeIcon></a>

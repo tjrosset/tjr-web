@@ -69,35 +69,35 @@ function Skills(){
                 <br></br>
                 <div className='progress-bars'>
                     <h2 style={{textDecoration:'underline'}}>Skills</h2>
-                    <Fade left>
-                        <label className='barmargin'>Python (Flask)</label>
-                        <div title='85%' style={{height:'50px', background:'linear-gradient(90deg, #C3A75D 85%, #FFFFFF 20%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
-                    </Fade>
-                    <Fade right>
+                    <Fade left delay={205}>
                         <label className='barmargin'>HTML</label>
                         <div title='90%' style={{height:'50px', background:'linear-gradient(90deg, #5F965B 90%, #FFFFFF 10%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
                     </Fade>
-                    <Fade left>
+                    <Fade left delay={205}>
                         <label className='barmargin'>CSS</label>
                         <div title='85%' style={{height:'50px', background:'linear-gradient(90deg, #5B6B96 85%, #FFFFFF 10%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
                     </Fade>
-                    <Fade right>
+                    <Fade left delay={205}>
                         <label className='barmargin'>JavaScript</label>
                         <div title='75%' style={{height:'50px', background:'linear-gradient(90deg, #965B5B 75%, #FFFFFF 22%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
                     </Fade>
-                    <Fade left>
+                    <Fade left delay={205}>
                         <label className='barmargin'>PHP</label>
                         <div title='70%' style={{height:'50px', background:'linear-gradient(90deg, #5B9690 70%, #FFFFFF 32%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
                     </Fade>
-                    <Fade right>
+                    <Fade left delay={205}>
                         <label className='barmargin'>React / React Native</label>
                         <div title='85%' style={{height:'50px', background:'linear-gradient(90deg, #F6A447 85%, #FFFFFF 15%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
                     </Fade>
-                    <Fade left>
+                    <Fade left delay={200}>
+                        <label className='barmargin'>Python (Flask)</label>
+                        <div title='80%' style={{height:'50px', background:'linear-gradient(90deg, #ff4d4d 80%, #FFFFFF 20%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
+                    </Fade>
+                    <Fade left delay={205}>
                         <label className='barmargin'>Databases</label>
                         <div title='88%' style={{height:'50px', background:'linear-gradient(90deg, #3087AC 88%, #FFFFFF 22%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
                     </Fade>
-                    <Fade right>
+                    <Fade left delay={205}>
                         <label className='barmargin'>Docker</label>
                         <div title='65%' style={{height:'50px', background:'linear-gradient(90deg, #935B96 65%, #FFFFFF 40%)', border:'2px solid black', borderRadius:'8px', width:"100%"}}></div>
                     </Fade>
